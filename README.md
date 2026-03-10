@@ -18,6 +18,7 @@ After installing the extension, you may want to assign a keyboard shortcut for f
 
 ```text
 Open Colorize Window
+```
 
 ---
 
@@ -45,6 +46,7 @@ Equivalent logic:
 new_r = int(base_color[0] * (gray / 255))
 new_g = int(base_color[1] * (gray / 255))
 new_b = int(base_color[2] * (gray / 255))
+```
 ---
 ## Screen Shots
 > Pop Window
