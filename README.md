@@ -6,6 +6,20 @@ This tool is designed for grayscale sprites, shading layers, icons, and pixel ar
 It preserves transparency and remaps grayscale brightness into the chosen color.
 
 ---
+## Keyboard Shortcut
+
+After installing the extension, you may want to assign a keyboard shortcut for faster access.
+
+### How to assign a shortcut
+
+1. Open Aseprite
+2. Go to **Edit > Keyboard Shortcuts**
+3. Use the search box to find:
+
+```text
+Open Colorize Window
+
+---
 
 ## Features
 
@@ -31,3 +45,10 @@ Equivalent logic:
 new_r = int(base_color[0] * (gray / 255))
 new_g = int(base_color[1] * (gray / 255))
 new_b = int(base_color[2] * (gray / 255))
+---
+## Screen Shots
+> Pop Window
+<img width="1214" height="693" alt="image" src="https://github.com/user-attachments/assets/a6384b86-c9e4-4083-ba0b-86d9dfdc1122" />
+> Colorized Image
+<img width="1308" height="708" alt="image" src="https://github.com/user-attachments/assets/584292eb-4e1e-4dcd-9bd5-e2154296d2b6" />
+
